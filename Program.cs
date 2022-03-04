@@ -8,8 +8,8 @@ namespace CheckMax
         static void Main(string[] args)
         {
             Console.WriteLine("Hello welcome to Generics Problem");
-            //int output = Maximum.MaxIntNum(25, 14, 60);
-            //Console.WriteLine(output);                                     
+            int output = Maximum.MaxIntNum(25, 14, 60);
+            Console.WriteLine(output);
         }
 
 
