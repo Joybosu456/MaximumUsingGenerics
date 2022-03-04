@@ -8,10 +8,13 @@ namespace CheckMax
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello welcome to Generics Problem");
-            //string output = Maximum.MaxIntNum("F","B","C");
+            //int output = Maximum.MaxIntNum(2,5,7);
             //Console.WriteLine(output);
             
-            double output = FloatValue.MaxIntNum(1.6,3.2,9.8);
+            //double output = FloatValue.MaxIntNum(1.6,3.2,9.8);
+           // Console.WriteLine(output);
+
+            string output = StringValue.MaxString("AC","MO","PZ");
             Console.WriteLine(output);
         }
 
