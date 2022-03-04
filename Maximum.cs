@@ -8,7 +8,7 @@ namespace CheckMax
 {
     public class Maximum
     {
-        public static int MaxIntNum(int firstValue, int secoundValue, int thirdValue)
+        public static string MaxIntNum(string firstValue, string secoundValue, string thirdValue)
         {
             if (firstValue.CompareTo(secoundValue) > 0 && firstValue.CompareTo(thirdValue) > 0 )
                 //firstValue.CompareTo(secoundValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
